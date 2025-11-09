@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - 'claude/**'  # claude/로 시작하는 모든 브랜치에서 트리거
+      - main  # main
   workflow_dispatch:  # 수동 실행 가능
 
 # GitHub Pages에 배포하기 위한 권한 설정
